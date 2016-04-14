@@ -2,6 +2,7 @@ function Roll() {
 	var numDice = document.getElementById("numDice").value;
 	var userInput = document.getElementById("userInput").value;
 	var modifier = document.getElementById("modifier").value;
+	var total = 0;
 	if (userInput == 0 || numDice == 0) {
 		var array = document.getElementById("array");
 		array.innerHTML = "I can't roll 0!";
@@ -18,7 +19,6 @@ function Roll() {
     		document.getElementById("array").innerHTML = array;
 		}
 	};
-	var total = 0;
 	for (i = 0; i < array.length; i++) {
     	total += array[i];
 	}
