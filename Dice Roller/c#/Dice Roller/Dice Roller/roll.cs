@@ -10,11 +10,12 @@ namespace Dice_Roller
     {
         public static void RollDice()
         {
-            Console.WriteLine("How many dice?");
-            int numDice = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("How many sides on the dice?");
-            int diceSides = Convert.ToInt32(Console.ReadLine());
-            if (diceSides == 0 || numDice == 0)
+            Dice d1 = new Dice();
+            Console.WriteLine("how many dice?");
+            d1.Number = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("how many sides on the dice?");
+            d1.Sides = Convert.ToInt32(Console.ReadLine());
+            if (d1.Sides == 0 || d1.Number == 0)
             {
                 Console.WriteLine("Must input a number for Number of dice or sides");
             }
@@ -22,16 +23,16 @@ namespace Dice_Roller
                 Random rnd = new Random();
                 Console.WriteLine("You Rolled:");
                 List<int> arrayList = new List<int>();
-                for (int i = 0; i < numDice; i++)
+                for (int i = 0; i < d1.Number; i++)
                 {
-                    int roll = rnd.Next(1, (diceSides + 1));
+                    int roll = rnd.Next(1, (d1.Sides + 1));
                     int totalRolled = roll;
                     arrayList.Add(totalRolled);
                 }
                 int total = arrayList.Sum();
                 foreach (int item in arrayList)
                 {
-                    if (item == diceSides)
+                    if (item == d1.Sides)
                     {
                         Console.WriteLine(item.ToString() + " Crit!");
                     }

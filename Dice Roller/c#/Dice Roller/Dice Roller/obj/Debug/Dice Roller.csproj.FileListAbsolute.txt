@@ -4,3 +4,9 @@ C:\Users\samuel.rule\Documents\C#\Training\Dice Roller\Dice Roller\bin\Debug\Dic
 C:\Users\samuel.rule\Documents\C#\Training\Dice Roller\Dice Roller\obj\Debug\Dice Roller.csprojResolveAssemblyReference.cache
 C:\Users\samuel.rule\Documents\C#\Training\Dice Roller\Dice Roller\obj\Debug\Dice Roller.exe
 C:\Users\samuel.rule\Documents\C#\Training\Dice Roller\Dice Roller\obj\Debug\Dice Roller.pdb
+C:\Users\samuel.rule\Documents\GitHub\Padawan-Project\Dice Roller\c#\Dice Roller\Dice Roller\bin\Debug\Dice Roller.exe.config
+C:\Users\samuel.rule\Documents\GitHub\Padawan-Project\Dice Roller\c#\Dice Roller\Dice Roller\obj\Debug\Dice Roller.exe
+C:\Users\samuel.rule\Documents\GitHub\Padawan-Project\Dice Roller\c#\Dice Roller\Dice Roller\obj\Debug\Dice Roller.pdb
+C:\Users\samuel.rule\Documents\GitHub\Padawan-Project\Dice Roller\c#\Dice Roller\Dice Roller\bin\Debug\Dice Roller.exe
+C:\Users\samuel.rule\Documents\GitHub\Padawan-Project\Dice Roller\c#\Dice Roller\Dice Roller\bin\Debug\Dice Roller.pdb
+C:\Users\samuel.rule\Documents\GitHub\Padawan-Project\Dice Roller\c#\Dice Roller\Dice Roller\obj\Debug\Dice Roller.csprojResolveAssemblyReference.cache
