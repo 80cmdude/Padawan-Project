@@ -22,8 +22,12 @@ function Roll() {
 	for (i = 0; i < array.length; i++) {
     	total += array[i];
 	}
+	if (numDice == array[i]) {
+		alert("crit");
+	}
 	document.getElementById("total").innerHTML = total;
 	var totalMod = Math.floor(total) + Math.floor(modifier);
 	document.getElementById("totalMod").innerHTML = totalMod;
+
 }
 
