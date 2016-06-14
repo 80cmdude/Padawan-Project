@@ -12,7 +12,11 @@ namespace Dice_Roller
         {
             while (true)
             {
-                roll.RollDice();
+                Console.WriteLine("How many dice?");
+                int UserDiceInput = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("How many Sides?");
+                int UserSidesInout = Convert.ToInt32(Console.ReadLine());
+                roll.RollDice(UserDiceInput, UserSidesInout);
             }
         } 
     }

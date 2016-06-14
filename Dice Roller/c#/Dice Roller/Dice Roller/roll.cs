@@ -7,15 +7,11 @@ using Dice_Roller;
 
 namespace Dice_Roller
 {
-    public class roll 
+    public class roll
     {
-        public static void RollDice()
+        public static void RollDice(int DiceNumber, int DiceSides)
         {
-            Console.WriteLine("How many dice?");
-            int numOfDice = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("How many Sides?");
-            int numOfSides = Convert.ToInt32(Console.ReadLine());
-            Dice d1 = new Dice(numOfDice, numOfSides);
+            Dice d1 = new Dice(DiceNumber, DiceSides);
             if (d1.Sides == 0 || d1.Number == 0)
             {
                 Console.WriteLine("Must input a number for Number of dice or sides");
