@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Dice_Roller;
 
 namespace Dice_Roller
 {
@@ -10,11 +11,11 @@ namespace Dice_Roller
     {
         public static void RollDice()
         {
-            Dice d1 = new Dice();
-            Console.WriteLine("how many dice?");
-            d1.Number = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("how many sides on the dice?");
-            d1.Sides = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("How many dice?");
+            int numOfDice = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("How many Sides?");
+            int numOfSides = Convert.ToInt32(Console.ReadLine());
+            Dice d1 = new Dice(numOfDice, numOfSides);
             if (d1.Sides == 0 || d1.Number == 0)
             {
                 Console.WriteLine("Must input a number for Number of dice or sides");

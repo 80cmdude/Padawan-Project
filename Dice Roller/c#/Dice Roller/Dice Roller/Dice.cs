@@ -10,6 +10,11 @@ namespace Dice_Roller
     {
         public int Number { get; set; }
         public int Sides { get; set; }
-        
+        public Dice() { }
+        public Dice(int number, int sides)
+        {
+            Number = number;
+            Sides = sides; 
+        }
     }
 }
