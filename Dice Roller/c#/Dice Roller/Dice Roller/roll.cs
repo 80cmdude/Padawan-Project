@@ -9,9 +9,8 @@ namespace Dice_Roller
 {
     public class roll
     {
-        public static void RollDice(int DiceNumber, int DiceSides)
+        public static void RollDice(Dice d1)
         {
-            Dice d1 = new Dice(DiceNumber, DiceSides);
             if (d1.Sides == 0 || d1.Number == 0)
             {
                 Console.WriteLine("Must input a number for Number of dice or sides");
