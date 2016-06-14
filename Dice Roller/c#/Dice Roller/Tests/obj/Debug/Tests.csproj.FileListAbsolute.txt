@@ -1,0 +1,8 @@
+C:\Users\samuel.rule\Documents\GitHub\Padawan-Project\Dice Roller\c#\Dice Roller\Tests\bin\Debug\Tests.dll
+C:\Users\samuel.rule\Documents\GitHub\Padawan-Project\Dice Roller\c#\Dice Roller\Tests\bin\Debug\Tests.pdb
+C:\Users\samuel.rule\Documents\GitHub\Padawan-Project\Dice Roller\c#\Dice Roller\Tests\bin\Debug\Dice Roller.exe
+C:\Users\samuel.rule\Documents\GitHub\Padawan-Project\Dice Roller\c#\Dice Roller\Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\samuel.rule\Documents\GitHub\Padawan-Project\Dice Roller\c#\Dice Roller\Tests\bin\Debug\Dice Roller.pdb
+C:\Users\samuel.rule\Documents\GitHub\Padawan-Project\Dice Roller\c#\Dice Roller\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\samuel.rule\Documents\GitHub\Padawan-Project\Dice Roller\c#\Dice Roller\Tests\obj\Debug\Tests.dll
+C:\Users\samuel.rule\Documents\GitHub\Padawan-Project\Dice Roller\c#\Dice Roller\Tests\obj\Debug\Tests.pdb
