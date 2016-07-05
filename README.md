@@ -1,6 +1,8 @@
 # Padawan-Project
 Apprenticeship Project
 
+THIS IS A CHANGE
+
 My name is Sam, im 22 and live in the Essex UK. I am currently doing an IT apprenticeship with a company in London as a software developer.</br>
 I studied physics at Nottingham Trent University and after a painful year and a half decided to leave to find something other than education. I picked up the pieces and am now working full time for an amazing company and learning a lot.
 I have so far conquered telesales and customer service and am now starting on my path of IT ascention starting with html (hence the website).
