@@ -1,0 +1,2 @@
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsFirstApp\SamsFirstApp\SamsFirstApp.Windows\SamsFirstApp.Windows.csproj;neutral
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsFirstApp\SamsFirstApp\SamsFirstApp\SamsFirstApp.csproj;neutral
