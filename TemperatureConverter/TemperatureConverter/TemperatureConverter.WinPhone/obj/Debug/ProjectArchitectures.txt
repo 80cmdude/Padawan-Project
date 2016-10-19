@@ -1,0 +1,2 @@
+C:\Users\samuel.rule\Documents\Padawan-Project\TemperatureConverter\TemperatureConverter\TemperatureConverter.WinPhone\TemperatureConverter.WinPhone.csproj;neutral
+C:\Users\samuel.rule\Documents\Padawan-Project\TemperatureConverter\TemperatureConverter\TemperatureConverter\TemperatureConverter.csproj;neutral

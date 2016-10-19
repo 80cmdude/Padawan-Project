@@ -8,7 +8,9 @@ C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2\bin\De
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2\obj\Debug\SamsApp2.dll
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2\obj\Debug\SamsApp2.pdb
-C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2\obj\Debug\SamsApp2.dll.mdb
-C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2\bin\Debug\SamsApp2.dll.mdb
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2\obj\Debug\SamsApp2.csprojResolveAssemblyReference.cache
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2\obj\Debug\SamsApp2.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2\bin\Debug\SamsApp2.dll.mdb

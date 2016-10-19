@@ -52,5 +52,12 @@ C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2.Droid\
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2.Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2.Droid\bin\Debug\FormsViewGroup.pdb
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2.Droid\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2.Droid\obj\Debug\SamsApp2.Droid.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsApp2\SamsApp2\SamsApp2.Droid\bin\Debug\SamsApp2.Droid.dll.mdb
