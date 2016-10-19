@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TemperatureConverter.DiceRollPage">
+  <ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness"
+                iOS="20, 40, 20, 20"
+                Android="20, 20, 20, 20"
+                WinPhone="20, 20, 20, 20" />
+  </ContentPage.Padding>
+  <ScrollView>
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15">
+      <Label Text="Dice Roller" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30"  FontAttributes="Bold" YAlign="Center"/>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Number of Dice?" WidthRequest="100" VerticalOptions="Center"/>
+        <Entry x:Name="numberOfDice" HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Number of Sides?" WidthRequest="100" VerticalOptions="Center"/>
+        <Entry x:Name="numberOfSides" HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
+      </StackLayout>
+      <Button x:Name="rollDice" Text="Roll!" Clicked="RollDice" FontSize="30" BackgroundColor="Green"/>
+      <Label Text="Result" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30"  FontAttributes="Bold"/>
+      <Label x:Name="txtRolledDice" FontSize="26" FontAttributes="Bold" TextColor="Green"/>
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

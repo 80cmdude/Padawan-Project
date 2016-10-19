@@ -12,7 +12,7 @@ namespace TemperatureConverter
         public App()
         {
             // The root page of your application
-            MainPage = new TemperatureConverter.MainPage();
+            MainPage = new NavigationPage(new LaunchPage());
         }
 
         protected override void OnStart()

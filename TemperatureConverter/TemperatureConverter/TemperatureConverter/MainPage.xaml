@@ -11,7 +11,7 @@
   <ContentPage.Content>
     <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15">
       <Label Text="Sam's Awesome Temperature Converter" FontSize="30"  FontAttributes="Bold"/>
-      <Entry x:Name="txtTemperatureEntry" Keyboard="Numeric"/>
+      <Entry x:Name="txtTemperatureEntry" Keyboard="Numeric" Placeholder="Enter temperature here"/>
       <StackLayout Orientation="Horizontal">
         <Label Text="From" WidthRequest="100" VerticalOptions="Center"/>
         <Picker x:Name="ConvertFrom" Title="Convert From" HorizontalOptions="FillAndExpand">
