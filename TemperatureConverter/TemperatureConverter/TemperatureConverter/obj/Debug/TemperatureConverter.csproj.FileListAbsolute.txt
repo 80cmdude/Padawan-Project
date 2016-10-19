@@ -11,7 +11,6 @@ C:\Users\samuel.rule\Documents\Padawan-Project\TemperatureConverter\TemperatureC
 C:\Users\samuel.rule\Documents\Padawan-Project\TemperatureConverter\TemperatureConverter\TemperatureConverter\bin\Debug\Xamarin.Forms.Core.pdb
 C:\Users\samuel.rule\Documents\Padawan-Project\TemperatureConverter\TemperatureConverter\TemperatureConverter\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\samuel.rule\Documents\Padawan-Project\TemperatureConverter\TemperatureConverter\TemperatureConverter\bin\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\samuel.rule\Documents\Padawan-Project\TemperatureConverter\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.dll.mdb
-C:\Users\samuel.rule\Documents\Padawan-Project\TemperatureConverter\TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.dll.mdb
+C:\Users\samuel.rule\Documents\Padawan-Project\TemperatureConverter\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.csprojResolveAssemblyReference.cache
 C:\Users\samuel.rule\Documents\Padawan-Project\TemperatureConverter\TemperatureConverter\TemperatureConverter\obj\Debug\TemperatureConverter.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\TemperatureConverter\TemperatureConverter\TemperatureConverter\bin\Debug\TemperatureConverter.dll.mdb

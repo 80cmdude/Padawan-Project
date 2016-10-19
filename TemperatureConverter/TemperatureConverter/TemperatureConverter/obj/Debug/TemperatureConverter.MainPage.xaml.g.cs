@@ -20,6 +20,12 @@ namespace TemperatureConverter {
         private global::Xamarin.Forms.Entry txtTemperatureEntry;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Picker ConvertFrom;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Picker ConvertTo;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button btnConvertTemperure;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -29,6 +35,8 @@ namespace TemperatureConverter {
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainPage));
             txtTemperatureEntry = this.FindByName<global::Xamarin.Forms.Entry>("txtTemperatureEntry");
+            ConvertFrom = this.FindByName<global::Xamarin.Forms.Picker>("ConvertFrom");
+            ConvertTo = this.FindByName<global::Xamarin.Forms.Picker>("ConvertTo");
             btnConvertTemperure = this.FindByName<global::Xamarin.Forms.Button>("btnConvertTemperure");
             txtConvertedTemperature = this.FindByName<global::Xamarin.Forms.Label>("txtConvertedTemperature");
         }
