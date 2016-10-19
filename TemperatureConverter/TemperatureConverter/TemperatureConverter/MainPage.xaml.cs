@@ -22,25 +22,25 @@ namespace TemperatureConverter
             if (convertedSuccessfully)
             {
                 decimal userTemperature = Convert.ToDecimal(txtTemperatureEntry.Text); // Convert user entry to int
-                if (convertedFrom == 0 && convertedTo == 1)// celcius to farenheit
+                if (convertedFrom == 0 && convertedTo == 1)// celsius to farenheit
                 {
-                    string convertedTemperature = ConvertTemp.CelciusToFarenheit(userTemperature);
-                    txtConvertedTemperature.Text = convertedTemperature + " F";
+                    string convertedTemperature = ConvertTemp.CelsiusToFarenheit(userTemperature);
+                    txtConvertedTemperature.Text = convertedTemperature + " ºF";
                 }
-                else if (convertedFrom == 1 && convertedTo == 0) //Farenheit to celcius
+                else if (convertedFrom == 1 && convertedTo == 0) //Farenheit to celsius
                 {
-                    string convertedTemperature = ConvertTemp.FarenheitToCelcius(userTemperature);
-                    txtConvertedTemperature.Text = convertedTemperature + " C";
+                    string convertedTemperature = ConvertTemp.FarenheitToCelsius(userTemperature);
+                    txtConvertedTemperature.Text = convertedTemperature + " ºC";
                 }
-                else if(convertedFrom == 0 && convertedTo == 2)//Celcius to Kelvin
+                else if(convertedFrom == 0 && convertedTo == 2)//Celsius to Kelvin
                 {
-                    string convertedTemperature = ConvertTemp.CelciusToKelvin(userTemperature);
+                    string convertedTemperature = ConvertTemp.CelsiusToKelvin(userTemperature);
                     txtConvertedTemperature.Text = convertedTemperature + " K";
                 }
-                else if (convertedFrom == 2 && convertedTo == 0)// Kelvin to celcius
+                else if (convertedFrom == 2 && convertedTo == 0)// Kelvin to celsius
                 {
-                    string convertedTemperature = ConvertTemp.KelvinToCelcius(userTemperature);
-                    txtConvertedTemperature.Text = convertedTemperature + " C";
+                    string convertedTemperature = ConvertTemp.KelvinToCelsius(userTemperature);
+                    txtConvertedTemperature.Text = convertedTemperature + " ºC";
                 }
                 else if (convertedFrom == 1 && convertedTo == 2)// Farenheit to Kelvin
                 {
@@ -50,7 +50,7 @@ namespace TemperatureConverter
                 else if (convertedFrom == 2 && convertedTo == 1)// Kelcin to Farenheit
                 {
                     string convertedTemperature = ConvertTemp.KelvinToFarenheit(userTemperature);
-                    txtConvertedTemperature.Text = convertedTemperature + " F";
+                    txtConvertedTemperature.Text = convertedTemperature + " ºF";
                 }
                 else if (convertedFrom == convertedTo) // are the same
                 {

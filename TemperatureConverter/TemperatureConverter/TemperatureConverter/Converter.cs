@@ -26,25 +26,25 @@ namespace TemperatureConverter
             }
         }
 
-        public string CelciusToFarenheit(decimal userTemperature)
+        public string CelsiusToFarenheit(decimal userTemperature)
         {
             decimal celciusValue = (userTemperature * (decimal)1.8) + 32;
             return celciusValue.ToString();
         }
 
-        public string FarenheitToCelcius(decimal userTemperature)
+        public string FarenheitToCelsius(decimal userTemperature)
         {
             decimal fareheitValue = (userTemperature - 32) / (decimal)1.8;
             return fareheitValue.ToString();
         }
 
-        public string CelciusToKelvin(decimal userTemperature)
+        public string CelsiusToKelvin(decimal userTemperature)
         {
             decimal kelvinValue = userTemperature + 273;
             return kelvinValue.ToString();
         }
 
-        public string KelvinToCelcius(decimal userTemperature)
+        public string KelvinToCelsius(decimal userTemperature)
         {
             decimal celciusValue = userTemperature - 273;
             return celciusValue.ToString();

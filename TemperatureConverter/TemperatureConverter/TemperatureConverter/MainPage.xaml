@@ -16,7 +16,7 @@
         <Label Text="From" WidthRequest="100" VerticalOptions="Center"/>
         <Picker x:Name="ConvertFrom" Title="Convert From" HorizontalOptions="FillAndExpand">
         <Picker.Items>
-          <x:String>Celcius</x:String>
+          <x:String>Celsius</x:String>
           <x:String>Fahrenheit</x:String>
           <x:String>Kelvin</x:String>
         </Picker.Items>
@@ -26,7 +26,7 @@
         <Label Text="To" WidthRequest="100" VerticalOptions="Center"/>
         <Picker x:Name="ConvertTo" Title="Convert To" HorizontalOptions="FillAndExpand">
         <Picker.Items>
-          <x:String>Celcius</x:String>
+          <x:String>Celsius</x:String>
           <x:String>Fahrenheit</x:String>
           <x:String>Kelvin</x:String>
         </Picker.Items>
