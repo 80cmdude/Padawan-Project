@@ -17,7 +17,13 @@ namespace SamsUsefulApp.Views
         public StopWatchPage()
         {
             InitializeComponent();
-            txtCurrentTime.Text = sw.Elapsed.Seconds.ToString();
+
+            Device.StartTimer(TimeSpan.FromMilliseconds(500), () => { UpdateTime(); return true; });
+        }
+
+        void UpdateTime()
+        {
+            txtCurrentTime.Text = sw.Elapsed.ToString();
         }
 
         void StopWatchStart(object sender, EventArgs e)
@@ -28,6 +34,7 @@ namespace SamsUsefulApp.Views
                 sw.Start();
                 running = true;
                 btnStartTime.Text = "Stop";
+
             }
             else if (running == true)
             {
@@ -35,6 +42,11 @@ namespace SamsUsefulApp.Views
                 running = false;
                 btnStartTime.Text = "Start";
             }
+        }
+
+        void StopWatchReset(object sender, EventArgs e)
+        {
+            sw.Reset();
         }
     }
 }

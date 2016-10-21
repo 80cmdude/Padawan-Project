@@ -20,12 +20,16 @@ namespace SamsUsefulApp.Views {
         private global::Xamarin.Forms.Button btnStartTime;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnResetTime;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label txtCurrentTime;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(StopWatchPage));
             btnStartTime = this.FindByName<global::Xamarin.Forms.Button>("btnStartTime");
+            btnResetTime = this.FindByName<global::Xamarin.Forms.Button>("btnResetTime");
             txtCurrentTime = this.FindByName<global::Xamarin.Forms.Label>("txtCurrentTime");
         }
     }
