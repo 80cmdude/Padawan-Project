@@ -24,5 +24,10 @@ namespace SamsUsefulApp.Views
         {
             await Navigation.PushAsync(new DiceRollPage());
         }
+
+        async void NavigatePageStopWatchTimer(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new StopWatchPage());
+        }
     }
 }

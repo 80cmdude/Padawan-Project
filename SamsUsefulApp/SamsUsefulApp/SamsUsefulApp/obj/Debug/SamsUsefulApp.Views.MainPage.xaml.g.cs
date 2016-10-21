@@ -23,10 +23,14 @@ namespace SamsUsefulApp.Views {
         private global::Xamarin.Forms.Button navDicePage;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button navStopWatch;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainPage));
             navTempPage = this.FindByName<global::Xamarin.Forms.Button>("navTempPage");
             navDicePage = this.FindByName<global::Xamarin.Forms.Button>("navDicePage");
+            navStopWatch = this.FindByName<global::Xamarin.Forms.Button>("navStopWatch");
         }
     }
 }

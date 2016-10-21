@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SamsUsefulApp.Views.MainPage">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <Style x:Key="primaryNavButton" TargetType="Button">
+        <Setter Property="FontSize" Value="30"/>
+      </Style>
+    </ResourceDictionary>
+  </ContentPage.Resources>
   <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15">
     <Label Text="Sams Super Awesome App" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30"  FontAttributes="Bold" YAlign="Center"/>
-    <Button x:Name="navTempPage" Text="Temperature Converter" Clicked="NavigatePageTempConverter" FontSize="30" BackgroundColor="Green"/>
-    <Button x:Name="navDicePage" Text="Dice Roll" Clicked="NavigatePageDiceRoll" FontSize="30" BackgroundColor="Red"/>
+    <Button x:Name="navTempPage" Text="Temperature Converter" Clicked="NavigatePageTempConverter"  Style="{StaticResource primaryNavButton}" BackgroundColor="Green"/>
+    <Button x:Name="navDicePage" Text="Dice Roll" Clicked="NavigatePageDiceRoll" Style="{StaticResource primaryNavButton}" BackgroundColor="Red"/>
+    <Button x:Name="navStopWatch" Text="Stop Watch" Clicked="NavigatePageStopWatchTimer" Style="{StaticResource primaryNavButton}" BackgroundColor="Blue"/>
   </StackLayout>
 </ContentPage>

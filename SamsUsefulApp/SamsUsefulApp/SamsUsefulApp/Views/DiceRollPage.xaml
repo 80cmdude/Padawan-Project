@@ -1,11 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SamsUsefulApp.Views.DiceRollPage">
   <ContentPage.Padding>
-    <OnPlatform x:TypeArguments="Thickness"
-                iOS="20, 40, 20, 20"
-                Android="20, 20, 20, 20"
-                WinPhone="20, 20, 20, 20" />
+    <OnPlatform x:TypeArguments="Thickness" iOS="20, 40, 20, 20" Android="20, 20, 20, 20" WinPhone="20, 20, 20, 20" />
   </ContentPage.Padding>
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <Style x:Key="primaryActionButton" TargetType="Button">
+        <Setter Property="FontSize" Value="30"/>
+        <Setter Property="BackgroundColor" Value="Green"/>
+      </Style>
+    </ResourceDictionary>
+  </ContentPage.Resources>
   <ScrollView>
     <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15">
       <Label Text="Dice Roller" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30"  FontAttributes="Bold" YAlign="Center"/>
@@ -17,7 +22,7 @@
         <Label Text="Number of Sides?" WidthRequest="100" VerticalOptions="Center"/>
         <Entry x:Name="numberOfSides" HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
       </StackLayout>
-      <Button x:Name="rollDice" Text="Roll!" Clicked="RollDice" FontSize="30" BackgroundColor="Green"/>
+      <Button x:Name="rollDice" Text="Roll!" Clicked="RollDice" Style="{StaticResource primaryActionButton}"/>
       <Label Text="Result" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30"  FontAttributes="Bold"/>
       <Label x:Name="txtRolledDice" FontSize="26" FontAttributes="Bold" TextColor="Green"/>
     </StackLayout>

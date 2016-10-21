@@ -33,12 +33,12 @@ C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsU
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\obj\Debug\R.cs.flag
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\obj\Debug\uploadflags.txt
-C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\SamsUsefulApp.Droid.dll.mdb
-C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\SamsUsefulApp.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\FormsViewGroup.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\SamsUsefulApp.Droid.dll.mdb
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\SamsUsefulApp.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\Java.Interop.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\Mono.Android.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\mscorlib.dll.mdb
