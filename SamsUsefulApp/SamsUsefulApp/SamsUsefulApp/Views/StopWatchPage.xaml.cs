@@ -18,12 +18,14 @@ namespace SamsUsefulApp.Views
         {
             InitializeComponent();
 
-            Device.StartTimer(TimeSpan.FromMilliseconds(500), () => { UpdateTime(); return true; });
+            Device.StartTimer(TimeSpan.FromMilliseconds(50), () => { UpdateTime(); return true; });
+
         }
 
         void UpdateTime()
         {
-            txtCurrentTime.Text = sw.Elapsed.ToString();
+            TimeSpan currentTime = sw.Elapsed;
+            txtCurrentTime.Text = currentTime.ToString("hh\\:mm\\:ss\\.f");
         }
 
         void StopWatchStart(object sender, EventArgs e)
@@ -47,6 +49,12 @@ namespace SamsUsefulApp.Views
         void StopWatchReset(object sender, EventArgs e)
         {
             sw.Reset();
+
+            if (running)
+            {
+                sw.Start();
+            }
+            else { }
         }
     }
 }
