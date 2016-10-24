@@ -11,7 +11,7 @@ namespace SamsUsefulApp.Controllers
 {
     public class CurrencyConverter
     {
-        public async void GetCurrencyValues()
+        public async Task<string> GetCurrencyValues()
         {
             HttpClient client = new HttpClient();
 
@@ -28,7 +28,7 @@ namespace SamsUsefulApp.Controllers
 
             CurrencyObject CurrentCurrency = JsonConvert.DeserializeObject<CurrencyObject>(result);
             string TestingWorks = CurrentCurrency.date;
-            string TestingAus = CurrentCurrency.rates.AUD;
+            var TestingAus = CurrentCurrency.rates.Keys;
         }
     }
 }

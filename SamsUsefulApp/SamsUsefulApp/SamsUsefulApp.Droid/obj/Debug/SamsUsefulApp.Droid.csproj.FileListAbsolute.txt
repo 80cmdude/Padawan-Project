@@ -40,12 +40,12 @@ C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsU
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\Newtonsoft.Json.dll
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\Newtonsoft.Json.xml
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\SamsUsefulApp.Droid.dll.mdb
-C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\SamsUsefulApp.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\Java.Interop.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\Microsoft.CSharp.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\Mono.Android.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\Mono.CSharp.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\mscorlib.dll.mdb
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\SamsUsefulApp.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\System.Core.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp.Droid\bin\Debug\System.dll.mdb

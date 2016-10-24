@@ -20,3 +20,7 @@ C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsU
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp\obj\Debug\SamsUsefulApp.csprojResolveAssemblyReference.cache
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp\obj\Debug\SamsUsefulApp.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp\bin\Debug\SamsUsefulApp.dll.mdb
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp\obj\Debug\SamsUsefulApp.dll.mdb
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp\bin\Debug\SamsUsefulApp.dll.mdb
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp\obj\Debug\SamsUsefulApp.dll.mdb
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp\bin\Debug\SamsUsefulApp.dll.mdb
