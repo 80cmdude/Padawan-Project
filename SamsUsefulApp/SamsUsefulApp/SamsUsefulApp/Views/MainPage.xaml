@@ -12,5 +12,6 @@
     <Button x:Name="navTempPage" Text="Temperature Converter" Clicked="NavigatePageTempConverter"  Style="{StaticResource primaryNavButton}" BackgroundColor="Green"/>
     <Button x:Name="navDicePage" Text="Dice Roll" Clicked="NavigatePageDiceRoll" Style="{StaticResource primaryNavButton}" BackgroundColor="Red"/>
     <Button x:Name="navStopWatch" Text="Stop Watch" Clicked="NavigatePageStopWatchTimer" Style="{StaticResource primaryNavButton}" BackgroundColor="Blue"/>
+    <Button x:Name="navCurrencyConverter" Text="Currency Converter" Clicked="NavigatePageCurrencyConverter" Style="{StaticResource primaryNavButton}" BackgroundColor="Yellow"/>
   </StackLayout>
 </ContentPage>

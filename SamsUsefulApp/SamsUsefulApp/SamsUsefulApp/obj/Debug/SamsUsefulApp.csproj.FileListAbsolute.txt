@@ -14,5 +14,9 @@ C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsU
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp\obj\Debug\SamsUsefulApp.dll
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp\obj\Debug\SamsUsefulApp.pdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp\obj\Debug\SamsUsefulApp.Views.StopWatchPage.xaml.g.cs
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp\obj\Debug\SamsUsefulApp.Views.CurrencyConverterPage.xaml.g.cs
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp\obj\Debug\SamsUsefulApp.csprojResolveAssemblyReference.cache
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp\obj\Debug\SamsUsefulApp.dll.mdb
 C:\Users\samuel.rule\Documents\Padawan-Project\SamsUsefulApp\SamsUsefulApp\SamsUsefulApp\bin\Debug\SamsUsefulApp.dll.mdb

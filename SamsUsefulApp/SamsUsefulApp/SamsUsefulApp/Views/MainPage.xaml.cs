@@ -29,5 +29,10 @@ namespace SamsUsefulApp.Views
         {
             await Navigation.PushAsync(new StopWatchPage());
         }
+
+        async void NavigatePageCurrencyConverter(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CurrencyConverterPage());
+        }
     }
 }
