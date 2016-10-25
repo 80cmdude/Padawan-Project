@@ -243,3 +243,14 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+
+# Mac crap
+.DS_Store
+JobseekerApp/JobseekerApp/Resources/Resx/AppResources.Designer.cs
+JobseekerApp/JobseekerApp.Droid/Resources/Resource.Designer.cs
+sh.exe.stackdump
+JobseekerApp.Tests.Droid/Resources/Resource.Designer.cs
+JobseekerApp/JobseekerApp/Resources/Resx/AppResources.es.Designer.cs
+JobseekerApp/JobseekerApp/Resources/Resx/AppResources.pt.Designer.cs
+*.bak
+Components/
