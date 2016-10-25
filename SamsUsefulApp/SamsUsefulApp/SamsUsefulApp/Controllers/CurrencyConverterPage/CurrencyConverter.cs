@@ -11,7 +11,7 @@ namespace SamsUsefulApp.Controllers
 {
     public class CurrencyConverter
     {
-        public async Task<string> GetCurrencyValues()
+        public async void GetCurrencyValues()
         {
             HttpClient client = new HttpClient();
 
