@@ -7,19 +7,19 @@ using SamsUsefulApp.Controllers;
 using Newtonsoft.Json;
 
 using Xamarin.Forms;
+using SamsUsefulApp.data;
 
 namespace SamsUsefulApp.Views
 {
     public partial class CurrencyConverterPage : ContentPage
     {
-        CurrencyConverter Converter = new CurrencyConverter();
-        CurrencyObject ConvertedCurrencyObject = new CurrencyObject();
-
+       
         public CurrencyConverterPage()
         {
             InitializeComponent();
 
-            Converter.GetCurrencyValues();
+            var test = Queries.GetItems();
         }
     }
+    
 }
