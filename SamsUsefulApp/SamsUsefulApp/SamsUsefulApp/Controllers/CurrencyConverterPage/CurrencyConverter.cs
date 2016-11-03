@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using SamsUsefulApp.Models;
 using SamsUsefulApp.data;
+using Xamarin.Forms;
 
 namespace SamsUsefulApp.Controllers
 {
@@ -33,12 +34,6 @@ namespace SamsUsefulApp.Controllers
                {
                     Queries.InsertRate(new Rate { Currency = r.Key, ConversionRate = r.Value });
                }
-
-                //string TestingWorks = CurrentCurrency.date;
-                //var TestingAus = CurrentCurrency.rates.Keys;
-
-                //var currencyValues = new List<KeyValuePair<string, CurrencyObject>>();
-                //currencyValues.Add(new KeyValuePair<string, CurrencyObject>("allCurrency", CurrentCurrency));
         }
     }
 }

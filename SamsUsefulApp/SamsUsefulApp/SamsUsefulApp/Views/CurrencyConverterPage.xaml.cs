@@ -13,12 +13,25 @@ namespace SamsUsefulApp.Views
 {
     public partial class CurrencyConverterPage : ContentPage
     {
-       
         public CurrencyConverterPage()
         {
             InitializeComponent();
+        }
 
-            var test = Queries.GetItems();
+        private void CurrencyPicker()
+        {
+            var currencies = Queries.GetItems();
+            Dictionary<string, decimal> result = currencies.ToDictionary(x => x.Currency, x => x.ConversionRate);
+
+            Picker picker = new Picker
+            {
+                Title = "Currency"
+            };
+
+            foreach (string currencyValues in result.Keys)
+            {
+                picker.Items.Add(currencyValues);
+            }
         }
     }
     
