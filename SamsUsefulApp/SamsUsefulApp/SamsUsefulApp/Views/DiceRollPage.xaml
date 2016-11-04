@@ -20,6 +20,7 @@
       </StackLayout>
       <Button x:Name="rollDice" Text="Roll!" Clicked="RollDice" Style="{StaticResource primaryCTA}"/>
       <Label Text="Result:" Style="{StaticResource secondaryTitle}"/>
+      <Label x:Name="total" Style="{StaticResource result}" />
       <Label x:Name="txtRolledDice" Style="{StaticResource result}"  />
     </StackLayout>
   </ScrollView>
