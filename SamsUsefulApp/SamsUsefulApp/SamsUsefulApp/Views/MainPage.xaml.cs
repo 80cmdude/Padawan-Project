@@ -34,5 +34,10 @@ namespace SamsUsefulApp.Views
         {
             await Navigation.PushAsync(new CurrencyConverterPage());
         }
+
+        async void NavigatePageTwitterFeed(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TwitterFeedPage());
+        }
     }
 }

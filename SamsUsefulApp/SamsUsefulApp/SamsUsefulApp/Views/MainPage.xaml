@@ -9,6 +9,7 @@
       <Button x:Name="navDicePage" Text="Dice Roll" Clicked="NavigatePageDiceRoll" Style="{StaticResource primaryNavButton}" />
       <Button x:Name="navStopWatch" Text="Stop Watch" Clicked="NavigatePageStopWatchTimer" Style="{StaticResource primaryNavButton}" />
       <Button x:Name="navCurrencyConverter" Text="Currency Converter" Clicked="NavigatePageCurrencyConverter" Style="{StaticResource primaryNavButton}" />
+      <Button x:Name="TwitterFeed" Text="Twitter Feed" Clicked="NavigatePageTwitterFeed" Style="{StaticResource primaryNavButton}" />
     </StackLayout>
   </ContentPage.Content>
 </ContentPage>
