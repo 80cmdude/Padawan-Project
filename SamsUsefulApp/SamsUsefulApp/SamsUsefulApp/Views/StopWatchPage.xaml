@@ -8,6 +8,6 @@
     <Button x:Name="btnStartTime" Text="Start" Clicked="StopWatchStart" IsEnabled="True" Style="{StaticResource primaryCTA}" />
     <Button x:Name="btnResetTime" Text="Reset" Clicked="StopWatchReset" IsEnabled="True" Style="{StaticResource primaryCTA}" />
     <Label Text="Time:" Style="{StaticResource secondaryTitle}" />
-    <Label x:Name="txtCurrentTime" FontSize="26" FontAttributes="Bold" TextColor="#0C7C59"/>
+    <Label x:Name="txtCurrentTime" Style="{StaticResource result}" />
   </StackLayout>
 </ContentPage>

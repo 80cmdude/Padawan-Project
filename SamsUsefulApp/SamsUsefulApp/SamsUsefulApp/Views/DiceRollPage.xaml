@@ -20,7 +20,7 @@
       </StackLayout>
       <Button x:Name="rollDice" Text="Roll!" Clicked="RollDice" Style="{StaticResource primaryCTA}"/>
       <Label Text="Result:" Style="{StaticResource secondaryTitle}"/>
-      <Label x:Name="txtRolledDice" FontSize="26" FontAttributes="Bold" TextColor="#0C7C59"/>
+      <Label x:Name="txtRolledDice" Style="{StaticResource result}"  />
     </StackLayout>
   </ScrollView>
 </ContentPage>

@@ -30,11 +30,31 @@ namespace SamsUsefulApp.Views
             {
                 string currencyValue = CurrencyPicker.Items[CurrencyPicker.SelectedIndex];
                 string exchangeRate = result[currencyValue].ToString();
+                if (convertedValue.Text != null)
+                {
+                    string finalConvertedValue = Math.Round((Convert.ToDecimal(GBP.Text) * result[currencyValue]), 2).ToString();
+                    convertedValue.Text = finalConvertedValue;
+                }
                 ExchangeRate.Text = exchangeRate;
-
-                string finalConvertedValue = (Convert.ToDecimal(GBP.Text) * result[currencyValue]).ToString();
-                convertedValue.Text = finalConvertedValue;
             };
+        }
+
+        public void ConvertCurrency()
+        {
+            var currencies = Queries.GetItems();
+            Dictionary<string, decimal> result = currencies.ToDictionary(x => x.Currency, x => x.ConversionRate);
+
+            if (CurrencyPicker.SelectedIndex == -1)
+            {
+                convertedValue.Text = "Please choose an exchange rate";
+            }
+            else
+            {
+                string currencyValue = CurrencyPicker.Items[CurrencyPicker.SelectedIndex];
+                string finalConvertedValue = Math.Round((Convert.ToDecimal(GBP.Text) * result[currencyValue]), 2).ToString();
+                convertedValue.Text = finalConvertedValue;
+            }
+            
         }
     }
     

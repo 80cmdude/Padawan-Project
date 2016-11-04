@@ -37,7 +37,7 @@
       </StackLayout>
       <Button x:Name="btnConvertTemperure" IsEnabled="true" Clicked="ConvertTemperature" Text="Convert!" Style="{StaticResource primaryCTA}"/>
       <Label Text="Converted Value:" Style="{StaticResource secondaryTitle}" />
-      <Label x:Name="txtConvertedTemperature" FontSize="26" FontAttributes="Bold" TextColor="#0C7C59"/>
+      <Label x:Name="txtConvertedTemperature" Style="{StaticResource result}" />
     </StackLayout>
   </ContentPage.Content>
 </ContentPage>
