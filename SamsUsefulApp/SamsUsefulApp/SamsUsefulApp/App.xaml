@@ -3,6 +3,10 @@
              x:Class="SamsUsefulApp.App">
   <Application.Resources>
     <ResourceDictionary>
+      <Style TargetType="NavigationPage">
+        <Setter Property="BarBackgroundColor" Value="#404E7C"/>
+        <Setter Property="BarTextColor" Value="#404E7C"/>
+      </Style>
       <Style TargetType="ContentPage"> 
         <Setter Property="BackgroundColor" Value="#2B303A" />
       </Style>
