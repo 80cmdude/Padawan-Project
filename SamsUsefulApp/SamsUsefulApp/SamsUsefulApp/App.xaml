@@ -3,8 +3,37 @@
              x:Class="SamsUsefulApp.App">
   <Application.Resources>
     <ResourceDictionary>
-      <Style x:Key="navBarStyle" TargetType="StackLayout" >
-        <Setter Property="HeightRequest" Value="57" />
+      <Style TargetType="ContentPage"> 
+        <Setter Property="BackgroundColor" Value="#2B303A" />
+      </Style>
+      <Style x:Key="primaryNavButton" TargetType="Button">
+        <Setter Property="FontSize" Value="30"/>
+        <Setter Property="BackgroundColor" Value="#D64933"/>
+        <Setter Property="Margin" Value="10,0"/>
+        <Setter Property="TextColor" Value="#BAC1B8"/>
+      </Style>
+      <Style x:Key="primaryCTA" TargetType="Button">
+        <Setter Property="FontSize" Value="30"/>
+        <Setter Property="BackgroundColor" Value="#D64933"/>
+        <Setter Property="Margin" Value="10,0"/>
+        <Setter Property="TextColor" Value="#BAC1B8"/>
+      </Style>
+      <Style x:Key="pageTitle" TargetType="Label">
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="FontSize" Value="30"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="TextColor" Value="#58A4B0"/>
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+      </Style>
+      <Style x:Key="secondaryTitle" TargetType="Label">
+        <Setter Property="FontSize" Value="26"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="TextColor" Value="#BAC1B8"/>
+      </Style>
+      <Style x:Key="keyText" TargetType="Label">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="TextColor" Value="#BAC1B8"/>
       </Style>
     </ResourceDictionary>
   </Application.Resources>

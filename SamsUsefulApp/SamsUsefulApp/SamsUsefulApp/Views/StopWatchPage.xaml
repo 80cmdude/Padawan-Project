@@ -4,9 +4,10 @@
     <OnPlatform x:TypeArguments="Thickness" iOS="20, 40, 20, 20" Android="20, 20, 20, 20" WinPhone="20, 20, 20, 20" />
   </ContentPage.Padding>
   <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15">
-    <Button x:Name="btnStartTime" Text="Start" Clicked="StopWatchStart" IsEnabled="True" />
-    <Button x:Name="btnResetTime" Text="Reset" Clicked="StopWatchReset" IsEnabled="True" />
-    <Label Text="Time:" FontSize="26" FontAttributes="Bold"/>
-    <Label x:Name="txtCurrentTime" FontSize="26" FontAttributes="Bold" TextColor="Green"/>
+    <Label Text="Sams's Awesome StopWatch" Style="{StaticResource pageTitle}"/>
+    <Button x:Name="btnStartTime" Text="Start" Clicked="StopWatchStart" IsEnabled="True" Style="{StaticResource primaryCTA}" />
+    <Button x:Name="btnResetTime" Text="Reset" Clicked="StopWatchReset" IsEnabled="True" Style="{StaticResource primaryCTA}" />
+    <Label Text="Time:" Style="{StaticResource secondaryTitle}" />
+    <Label x:Name="txtCurrentTime" FontSize="26" FontAttributes="Bold" TextColor="#0C7C59"/>
   </StackLayout>
 </ContentPage>

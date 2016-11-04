@@ -1,24 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SamsUsefulApp.Views.MainPage">
-  <ContentPage.Resources>
-    <ResourceDictionary>
-      <Style x:Key="primaryNavButton" TargetType="Button">
-        <Setter Property="FontSize" Value="30"/>
-        <Setter Property="BackgroundColor" Value="#D64933"/>
-        <Setter Property="Margin" Value="10,0"/>
-        <Setter Property="TextColor" Value="#BAC1B8"/>
-      </Style>
-      <Style TargetType="NavigationPage">
-        <Setter Property="BarBackgroundColor" Value="Color.Red"/>
-        <Setter Property="BarTextColor" Value="Color.Green"/>
-      </Style>
-    </ResourceDictionary>
-  </ContentPage.Resources>
-  <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15" BackgroundColor="#2B303A">
-    <Label Text="Sams Super Awesome App" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30"  FontAttributes="Bold" XAlign="Center" TextColor="#58A4B0"/>
-    <Button x:Name="navTempPage" Text="Temperature Converter" Clicked="NavigatePageTempConverter"  Style="{StaticResource primaryNavButton}" />
-    <Button x:Name="navDicePage" Text="Dice Roll" Clicked="NavigatePageDiceRoll" Style="{StaticResource primaryNavButton}" />
-    <Button x:Name="navStopWatch" Text="Stop Watch" Clicked="NavigatePageStopWatchTimer" Style="{StaticResource primaryNavButton}"/>
-    <Button x:Name="navCurrencyConverter" Text="Currency Converter" Clicked="NavigatePageCurrencyConverter" Style="{StaticResource primaryNavButton}"/>
-  </StackLayout>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="SamsUsefulApp.Views.MainPage">
+  <ContentPage.Content>
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15">
+      <Label Text="Sams Super Awesome App" Style="{StaticResource pageTitle}" />
+      <Button x:Name="navTempPage" Text="Temperature Converter" Clicked="NavigatePageTempConverter" Style="{StaticResource primaryNavButton}"/>
+      <Button x:Name="navDicePage" Text="Dice Roll" Clicked="NavigatePageDiceRoll" Style="{StaticResource primaryNavButton}" />
+      <Button x:Name="navStopWatch" Text="Stop Watch" Clicked="NavigatePageStopWatchTimer" Style="{StaticResource primaryNavButton}" />
+      <Button x:Name="navCurrencyConverter" Text="Currency Converter" Clicked="NavigatePageCurrencyConverter" Style="{StaticResource primaryNavButton}" />
+    </StackLayout>
+  </ContentPage.Content>
 </ContentPage>

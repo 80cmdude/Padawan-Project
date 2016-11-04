@@ -70,6 +70,8 @@ namespace SamsUsefulApp.Views
                 string finalConvertedValue = (Convert.ToDecimal(GBP.Text) * result[currencyValue]).ToString();
                 convertedValue.Text = finalConvertedValue;
             };
+
+            CurrencyPicker.SelectedIndex
         }
     }
     

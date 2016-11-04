@@ -19,6 +19,7 @@ namespace SamsUsefulApp
         public static SQLiteConnection DatabaseConnection { get; set; }
         public App()
         {
+            InitializeComponent();
             MainPage = new NavigationPage(new MainPage());
 
             CurrencyConverter Converter = new CurrencyConverter();
