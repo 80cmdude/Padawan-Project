@@ -19,59 +19,22 @@ namespace SamsUsefulApp.Views
 
             var currencies = Queries.GetItems();
             Dictionary<string, decimal> result = currencies.ToDictionary(x => x.Currency, x => x.ConversionRate);
+            
 
-            Label currencyConverter = new Label
+            foreach (string currencyvalues in result.Keys)
             {
-                Text = "Currency Converter"
-            };
-            Label ExchangeRate = new Label
-            {
-                Text = ""
-            };
-
-            Label convertedValue = new Label
-            {
-                Text = ""
-            };
-
-            Entry GBP = new Entry
-            {
-                Keyboard = Keyboard.Numeric
-            };
-
-            Picker picker = new Picker
-            {
-                Title = "Currency"
-            };
-
-            foreach (string currencyValues in result.Keys)
-            {
-                picker.Items.Add(currencyValues);
+                CurrencyPicker.Items.Add(currencyvalues);
             }
 
-            this.Content = new StackLayout
+            CurrencyPicker.SelectedIndexChanged += (sender, args) =>
             {
-                Children =
-                {
-                    currencyConverter,
-                    GBP,
-                    picker,
-                    ExchangeRate,
-                    convertedValue
-                }
-            };
-
-            picker.SelectedIndexChanged += (sender, args) =>
-            {
-                string currencyValue = picker.Items[picker.SelectedIndex];
+                string currencyValue = CurrencyPicker.Items[CurrencyPicker.SelectedIndex];
                 string exchangeRate = result[currencyValue].ToString();
                 ExchangeRate.Text = exchangeRate;
 
                 string finalConvertedValue = (Convert.ToDecimal(GBP.Text) * result[currencyValue]).ToString();
                 convertedValue.Text = finalConvertedValue;
             };
-
-            CurrencyPicker.SelectedIndex
         }
     }
     
