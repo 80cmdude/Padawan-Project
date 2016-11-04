@@ -1,19 +1,31 @@
-﻿using SamsUsefulApp.Views;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using SamsUsefulApp.Views;
+using SamsUsefulApp.Controllers;
 
 using Xamarin.Forms;
+using SQLite.Net;
+using SamsUsefulApp.Models;
+using SamsUsefulApp.data;
+using Xamarin.Forms.Xaml;
 
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace SamsUsefulApp
 {
     public partial class App : Application
     {
+        public static SQLiteConnection DatabaseConnection { get; set; }
         public App()
         {
             MainPage = new NavigationPage(new MainPage());
+
+            CurrencyConverter Converter = new CurrencyConverter();
+            Converter.GetCurrencyValues();
+            DatabaseConnection = DependencyService.Get<ISQLite>().GetConnection();
+            Queries.DropTable();
+            DatabaseConnection.CreateTable<Rate>();
         }
 
         protected override void OnStart()

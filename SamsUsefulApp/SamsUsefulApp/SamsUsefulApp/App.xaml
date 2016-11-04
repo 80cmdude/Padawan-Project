@@ -1,2 +1,11 @@
-﻿<!--?<span class="hiddenSpellError" pre="" data-mce-bogus="1"-->xml version="1.0" encoding="utf-8" ?&gt;
-
+﻿<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamsUsefulApp.App">
+  <Application.Resources>
+    <ResourceDictionary>
+      <Style x:Key="navBarStyle" TargetType="StackLayout" >
+        <Setter Property="HeightRequest" Value="57" />
+      </Style>
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>
