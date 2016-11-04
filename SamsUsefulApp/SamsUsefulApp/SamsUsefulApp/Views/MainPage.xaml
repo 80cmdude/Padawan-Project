@@ -4,14 +4,15 @@
     <ResourceDictionary>
       <Style x:Key="primaryNavButton" TargetType="Button">
         <Setter Property="FontSize" Value="30"/>
+        <Setter Property="BackgroundColor" Value="#0F5257"/>
       </Style>
     </ResourceDictionary>
   </ContentPage.Resources>
-  <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15">
-    <Label Text="Sams Super Awesome App" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30"  FontAttributes="Bold" YAlign="Center"/>
-    <Button x:Name="navTempPage" Text="Temperature Converter" Clicked="NavigatePageTempConverter"  Style="{StaticResource primaryNavButton}" BackgroundColor="Green"/>
-    <Button x:Name="navDicePage" Text="Dice Roll" Clicked="NavigatePageDiceRoll" Style="{StaticResource primaryNavButton}" BackgroundColor="Red"/>
-    <Button x:Name="navStopWatch" Text="Stop Watch" Clicked="NavigatePageStopWatchTimer" Style="{StaticResource primaryNavButton}" BackgroundColor="Blue"/>
-    <Button x:Name="navCurrencyConverter" Text="Currency Converter" Clicked="NavigatePageCurrencyConverter" Style="{StaticResource primaryNavButton}" BackgroundColor="Yellow"/>
+  <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15" BackgroundColor="#0B3142">
+    <Label Text="Sams Super Awesome App" VerticalOptions="Center" HorizontalOptions="Center" FontSize="30"  FontAttributes="Bold" XAlign="Center"/>
+    <Button x:Name="navTempPage" Text="Temperature Converter" Clicked="NavigatePageTempConverter"  Style="{StaticResource primaryNavButton}" />
+    <Button x:Name="navDicePage" Text="Dice Roll" Clicked="NavigatePageDiceRoll" Style="{StaticResource primaryNavButton}" />
+    <Button x:Name="navStopWatch" Text="Stop Watch" Clicked="NavigatePageStopWatchTimer" Style="{StaticResource primaryNavButton}"/>
+    <Button x:Name="navCurrencyConverter" Text="Currency Converter" Clicked="NavigatePageCurrencyConverter" Style="{StaticResource primaryNavButton}"/>
   </StackLayout>
 </ContentPage>
