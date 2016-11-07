@@ -5,9 +5,17 @@
   </ContentPage.Padding>
   <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15">
     <Label Text="Sams's Awesome StopWatch" Style="{StaticResource pageTitle}"/>
-    <Button x:Name="btnStartTime" Text="Start" Clicked="StopWatchStart" IsEnabled="True" Style="{StaticResource primaryCTA}" />
-    <Button x:Name="btnResetTime" Text="Reset" Clicked="StopWatchReset" IsEnabled="True" Style="{StaticResource primaryCTA}" />
+    <Button x:Name="btnStartTime" Text="Start" Clicked="StopWatchStart" IsEnabled="True" Style="{StaticResource primaryCTA}" HeightRequest="60" />
+    <StackLayout Orientation="Horizontal">
+      <Button x:Name="btnResetTime" Text="Reset" Clicked="StopWatchReset" IsEnabled="True" Style="{StaticResource primaryCTA}" HorizontalOptions="FillAndExpand" WidthRequest="100" HeightRequest="60" />
+      <Button x:Name="LapTime" Text="Lap" Clicked="Lap" IsEnabled="True" Style="{StaticResource primaryCTA}" HorizontalOptions="FillAndExpand" WidthRequest="100" HeightRequest="30" />
+    </StackLayout>
     <Label Text="Time:" Style="{StaticResource secondaryTitle}" />
     <Label x:Name="txtCurrentTime" Style="{StaticResource result}" />
+    <ScrollView>
+      <StackLayout>
+        <Label x:Name="lapTimes" Style="{StaticResource result}" />
+      </StackLayout>
+    </ScrollView>
   </StackLayout>
 </ContentPage>
