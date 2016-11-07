@@ -17,7 +17,7 @@ namespace SamsUsefulApp.Controllers
         public async void GetCurrencyValues()
         {
             HttpClient client = new HttpClient();
-
+            
             client.BaseAddress = new Uri("http://api.fixer.io/latest");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
