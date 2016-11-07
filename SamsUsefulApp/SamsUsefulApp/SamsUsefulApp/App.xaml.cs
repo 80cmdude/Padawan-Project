@@ -14,7 +14,7 @@ using Xamarin.Forms.Xaml;
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace SamsUsefulApp
 {
-    public partial class App : Application
+    public partial class App : Application 
     {
         public static SQLiteConnection DatabaseConnection { get; set; }
         public App()
