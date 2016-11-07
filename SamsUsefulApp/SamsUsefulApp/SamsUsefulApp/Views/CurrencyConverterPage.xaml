@@ -1,18 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:samcontrols="clr-namespace:SamsUsefulApp.Controls;assembly=SamsUsefulApp" x:Class="SamsUsefulApp.Views.CurrencyConverterPage">
+  <ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness" iOS="20, 40, 20, 20" Android="20, 20, 20, 20" WinPhone="20, 20, 20, 20" />
+  </ContentPage.Padding>
   <StackLayout>
       <Label Text="Sam's Awesome Currency Converter" Style="{StaticResource pageTitle}" />
     <StackLayout Orientation="Horizontal">
       <Label Text="Value (GBP)" Style="{StaticResource keyText}" WidthRequest="100" VerticalOptions="Center" />
-      <Entry x:Name="GBP" HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
+      <Entry x:Name="GBP" WidthRequest="100" Keyboard="Numeric" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Placeholder="Value" />
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Conversion Currency:" Style="{StaticResource keyText}" WidthRequest="100" VerticalOptions="Center" />
+      <Picker x:Name="CurrencyPicker" SelectedIndex="{Binding SelectedCurrencyIndex}" HorizontalOptions="FillAndExpand"/>
     </StackLayout>
     <StackLayout>
-      <Picker x:Name="CurrencyPicker" SelectedIndex="{Binding SelectedCurrencyIndex}"/>
-      <Label Text="Current Exchange Rate" Style="{StaticResource secondaryTitle}"  VerticalOptions="Center"/>
-      <Label x:Name="ExchangeRate" Style="{StaticResource result}" />
-      <Button Text="Convert" Clicked="ConvertCurrency" Style="{StaticResource primaryCTA}"/>
-      <Label Text="Converted Value" Style="{StaticResource secondaryTitle}" />
-      <Label x:Name="convertedValue" Style="{StaticResource result}" />
+      <Label Text="Current Exchange Rate" Style="{StaticResource secondaryTitle}"  VerticalOptions="Center" HorizontalTextAlignment="Center" Margin="0,20,0,0" />
+      <Label x:Name="ExchangeRate" Style="{StaticResource result}" HorizontalTextAlignment="Center" />
+      <Button Text="Convert" Clicked="ConvertCurrency" Style="{StaticResource primaryCTA}" Margin="0,20" />
+      <Label Text="Converted Value" Style="{StaticResource secondaryTitle}" HorizontalTextAlignment="Center" />
+      <Label x:Name="convertedValue" Style="{StaticResource result}" HorizontalTextAlignment="Center" />
     </StackLayout>
   </StackLayout>
 </ContentPage>

@@ -12,11 +12,11 @@
       <Label Text="Sams's Awesome Dice Roller" Style="{StaticResource pageTitle}"/>
       <StackLayout Orientation="Horizontal">
         <Label Text="Number of Dice?" WidthRequest="100" VerticalOptions="Center" Style="{StaticResource keyText}" />
-        <Entry x:Name="numberOfDice" HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
+        <Entry x:Name="numberOfDice" HorizontalOptions="FillAndExpand" Keyboard="Numeric" Placeholder="Dice number"/>
       </StackLayout>
       <StackLayout Orientation="Horizontal">
         <Label Text="Number of Sides?" WidthRequest="100" VerticalOptions="Center" Style="{StaticResource keyText}"/>
-        <Entry x:Name="numberOfSides" HorizontalOptions="FillAndExpand" Keyboard="Numeric"/>
+        <Entry x:Name="numberOfSides" HorizontalOptions="FillAndExpand" Keyboard="Numeric" Placeholder="Dice sides"/>
       </StackLayout>
       <Button x:Name="rollDice" Text="Roll!" Clicked="RollDice" Style="{StaticResource primaryCTA}"/>
       <Label Text="Result:" Style="{StaticResource secondaryTitle}"/>

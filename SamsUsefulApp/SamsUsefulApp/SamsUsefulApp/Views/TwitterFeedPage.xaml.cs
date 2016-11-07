@@ -17,26 +17,41 @@ namespace SamsUsefulApp.Views
         public TwitterFeedPage()
         {
             InitializeComponent();
-
-            GetLastTweet();
+            
         }
 
-        public async void GetLastTweet()
+        public void GetLastTweets()
         {
-            Feed.Authenticate();
-            var userTweets = Timeline.GetUserTimeline("tomopagu", 30);
-            var tweets = userTweets as ITweet[] ?? userTweets.ToArray();
-
-            List<string> userTimeline = new List<string>();
-
-            foreach (var tweet in tweets)
+            if (userName.Text == null)
             {
-                var currentTweet = tweet.Text;
-                userTimeline.Add(currentTweet);
+                Alerts.InvalidInput(messageToUser:"Please Enter a Username");
             }
+            else
+            {
+                Feed.Authenticate();
+                var userTweets = Timeline.GetUserTimeline(userName.Text, 30);
 
-            string allTweets = string.Join("\r\n\r\n", userTimeline);
-            firstTweet.Text = allTweets;
+                if (userTweets == null)
+                {
+                    Alerts.InvalidInput(messageToUser: "User does not exist");
+                }
+
+                else
+                {
+                    var tweets = userTweets as ITweet[] ?? userTweets.ToArray();
+
+                    List<string> userTimeline = new List<string>();
+
+                    foreach (var tweet in tweets)
+                    {
+                        var currentTweet = tweet.Text;
+                        userTimeline.Add(currentTweet);
+                    }
+
+                    string allTweets = string.Join("\r\n\r\n", userTimeline);
+                    firstTweet.Text = allTweets;
+                }
+            }
         }
     }
 }

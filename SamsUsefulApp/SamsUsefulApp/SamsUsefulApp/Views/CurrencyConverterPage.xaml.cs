@@ -46,7 +46,7 @@ namespace SamsUsefulApp.Views
 
             if (CurrencyPicker.SelectedIndex == -1)
             {
-                convertedValue.Text = "Please choose an exchange rate";
+                Alerts.InvalidInput(messageToUser:"Please Choose an Exchange Rate");
             }
             else
             {

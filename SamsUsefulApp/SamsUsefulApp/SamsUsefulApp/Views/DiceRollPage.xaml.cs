@@ -21,9 +21,13 @@ namespace SamsUsefulApp.Views
             int numDice = Convert.ToInt32(numberOfDice.Text);
             int numSides = Convert.ToInt32(numberOfSides.Text);
 
-            if (numDice > 100 || numSides > 100)
+            if (numDice > 1000)
             {
-                txtRolledDice.Text = "You cannot roll more than 100 dice or a dice with over 100 sides";
+                Alerts.InvalidInput(messageToUser:"You cannot roll more than 1000 dice");
+            }
+            else if (numSides > 1000)
+            {
+                Alerts.InvalidInput(messageToUser: "You cannot roll a dice with over 1000 sides");
             }
 
             else
