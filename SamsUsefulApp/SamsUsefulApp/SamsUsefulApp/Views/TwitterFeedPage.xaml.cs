@@ -22,7 +22,7 @@ namespace SamsUsefulApp.Views
 
         public void GetLastTweets()
         {
-            if (userName.Text == null)
+            if (userName.Text == null || userName.Text == string.Empty)
             {
                 Alerts.InvalidInput(messageToUser:"Please Enter a Username");
             }
