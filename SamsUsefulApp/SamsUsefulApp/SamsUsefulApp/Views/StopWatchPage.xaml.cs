@@ -15,6 +15,7 @@ namespace SamsUsefulApp.Views
         bool running = false;
         int lapNumber = 1;
 
+
         public StopWatchPage()
         {
             InitializeComponent();
@@ -31,7 +32,10 @@ namespace SamsUsefulApp.Views
 
         void Lap()
         {
-            lapTimes.Text += lapNumber.ToString() + ": " + sw.Elapsed.ToString("hh\\:mm\\:ss\\.f") + "\n";
+            string _lapNumber = lapNumber.ToString();
+            string _elapsedTime = sw.Elapsed.ToString("hh\\:mm\\:ss\\.f");
+
+            lapTimes.Text += $"{_lapNumber}. {_elapsedTime} \n";
             lapNumber += 1;
         }
 
