@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 
 using Android.App;
 using Android.Content.PM;
