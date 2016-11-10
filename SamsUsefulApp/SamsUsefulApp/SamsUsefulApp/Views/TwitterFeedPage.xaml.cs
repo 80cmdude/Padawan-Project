@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SamsUsefulApp.Controllers;
 
 using Xamarin.Forms;
@@ -17,14 +14,13 @@ namespace SamsUsefulApp.Views
         public TwitterFeedPage()
         {
             InitializeComponent();
-            
         }
 
         public void GetLastTweets()
         {
             if (userName.Text == null || userName.Text == string.Empty)
             {
-                Alerts.InvalidInput(messageToUser:"Please Enter a Username");
+                Alerts.InvalidInput(messageToUser: "Please Enter a Username");
             }
             else
             {

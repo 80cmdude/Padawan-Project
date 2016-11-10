@@ -18,8 +18,8 @@ namespace SamsUsefulApp.Views
 
         void RollDice(object sender, EventArgs e)
         {
-            int numDice = Convert.ToInt32(numberOfDice.Text);
-            int numSides = Convert.ToInt32(numberOfSides.Text);
+            Int16 numDice = Convert.ToInt16(numberOfDice.Text);
+            Int16 numSides = Convert.ToInt16(numberOfSides.Text);
 
             if (numDice > 1000)
             {
@@ -32,18 +32,11 @@ namespace SamsUsefulApp.Views
 
             else
             {
-                DiceRoll Roll = new DiceRoll();
-                string[] resultArray = Roll.RollTheDice(numDice, numSides);
-                string result = string.Join(", ", resultArray);
-                txtRolledDice.Text = result;
+                RollResult result = Roll.RollDice(numDice, numSides);
+                string results = string.Join(", ", result.Results);
+                txtRolledDice.Text = results;
 
-                List<int> totalArray = new List<int>();
-                foreach (var i in resultArray)
-                {
-                    totalArray.Add(Convert.ToInt16(i));
-                }
-
-                total.Text = totalArray.Sum().ToString();
+                total.Text = result.Total.ToString();
             }
         }
     }
