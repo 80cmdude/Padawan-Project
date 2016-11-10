@@ -64,12 +64,12 @@ namespace SamsUsefulApp.Views
                 }
                 else
                 {
-                    txtConvertedTemperature.Text = "Choose a convert type";
+                    Alerts.InvalidInput(messageToUser: "Please choose a convert type");
                 }
             }
             else
             {
-                txtConvertedTemperature.Text = "Please enter a number";
+                Alerts.InvalidInput(messageToUser: "Please enter a number");
             }
         }
     }
