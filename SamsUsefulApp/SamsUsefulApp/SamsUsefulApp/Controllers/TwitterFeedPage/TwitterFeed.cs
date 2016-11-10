@@ -10,13 +10,8 @@ using Tweetinvi.Models;
 
 namespace SamsUsefulApp.Controllers
 {
-    public class TwitterFeed 
+    public class TwitterFeed : Constants
     {
-        private string _consumerKey = "";
-        private string _consumerSecret = "";
-        private string _token = "";
-        private string _tokenSecret = "";
-
         public void Authenticate()
         {
             Auth.SetUserCredentials(_consumerKey, _consumerSecret, _token, _tokenSecret);
