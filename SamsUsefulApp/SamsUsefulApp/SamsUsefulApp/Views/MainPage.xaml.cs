@@ -39,5 +39,10 @@ namespace SamsUsefulApp.Views
         {
             await Navigation.PushAsync(new TwitterFeedPage());
         }
+
+        async void NavigatePageGiphy(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GiphyPage());
+        }
     }
 }

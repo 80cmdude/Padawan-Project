@@ -10,6 +10,18 @@ namespace SamsUsefulApp.data
     public static class Queries
     {
 
+        public static void InsertGifSource(GifSource g)
+        {
+            App.DatabaseConnection.Insert(g);
+        }
+
+        public static IEnumerable<GifSource> GetGifSources()
+        {
+            return (from i in App.DatabaseConnection.Table<GifSource>() select i).ToList();
+        }
+
+
+
         public static IEnumerable<Rate> GetItems()
         {
             return (from i in App.DatabaseConnection.Table<Rate>() select i).ToList();
@@ -33,6 +45,7 @@ namespace SamsUsefulApp.data
         public static void DropTable()
         {
             App.DatabaseConnection.DropTable<Rate>();
+            App.DatabaseConnection.DropTable<GifSource>();
         }
     }
 }

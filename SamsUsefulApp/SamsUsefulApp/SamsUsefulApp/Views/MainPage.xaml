@@ -3,13 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="SamsUsefulApp.Views.MainPage">
   <ContentPage.Content>
-    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15">
-      <Label Text="Sams Super Awesome App" Style="{StaticResource pageTitle}" />
-      <Button x:Name="navTempPage" Text="Temperature Converter" Clicked="NavigatePageTempConverter" Style="{StaticResource primaryNavButton}"/>
-      <Button x:Name="navDicePage" Text="Dice Roll" Clicked="NavigatePageDiceRoll" Style="{StaticResource primaryNavButton}" />
-      <Button x:Name="navStopWatch" Text="Stop Watch" Clicked="NavigatePageStopWatchTimer" Style="{StaticResource primaryNavButton}" />
-      <Button x:Name="navCurrencyConverter" Text="Currency Converter" Clicked="NavigatePageCurrencyConverter" Style="{StaticResource primaryNavButton}" />
-      <Button x:Name="TwitterFeed" Text="Twitter Feed" Clicked="NavigatePageTwitterFeed" Style="{StaticResource primaryNavButton}" />
-    </StackLayout>
+    <ScrollView>
+      <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15">
+        <Label Text="Sams Super Awesome App" Style="{StaticResource pageTitle}" />
+        <Button x:Name="navTempPage" Text="Temperature Converter" Clicked="NavigatePageTempConverter" Style="{StaticResource primaryNavButton}"/>
+        <Button x:Name="navDicePage" Text="Dice Roll" Clicked="NavigatePageDiceRoll" Style="{StaticResource primaryNavButton}" />
+        <Button x:Name="navStopWatch" Text="Stop Watch" Clicked="NavigatePageStopWatchTimer" Style="{StaticResource primaryNavButton}" />
+        <Button x:Name="navCurrencyConverter" Text="Currency Converter" Clicked="NavigatePageCurrencyConverter" Style="{StaticResource primaryNavButton}" />
+        <Button x:Name="TwitterFeed" Text="Twitter Feed" Clicked="NavigatePageTwitterFeed" Style="{StaticResource primaryNavButton}" />
+        <Button x:Name="giphyPage" Text="Giphy" Clicked="NavigatePageGiphy" Style="{StaticResource primaryNavButton}" />
+      </StackLayout>
+    </ScrollView>
   </ContentPage.Content>
 </ContentPage>

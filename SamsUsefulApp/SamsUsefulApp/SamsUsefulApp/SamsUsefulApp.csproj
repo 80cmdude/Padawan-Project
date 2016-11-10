@@ -41,6 +41,7 @@
     </Compile>
     <Compile Include="Controllers\CurrencyConverterPage\CurrencyConverter.cs" />
     <Compile Include="Controllers\DiceRollPage\RollResult.cs" />
+    <Compile Include="Controllers\Giphy\GiphyApi.cs" />
     <Compile Include="Controllers\TwitterFeedPage\TwitterFeed.cs" />
     <Compile Include="Controls\CurrencyPicker.cs" />
     <Compile Include="Models\CurrencyConverter\CurrencyObject.cs" />
@@ -49,12 +50,16 @@
     <Compile Include="Controllers\TemperaturePage\TempConverter.cs" />
     <Compile Include="data\Queries.cs" />
     <Compile Include="ISQLite.cs" />
+    <Compile Include="Models\Giphy\Gif.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\CurrencyConverterPage.xaml.cs">
       <DependentUpon>CurrencyConverterPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\DiceRollPage.xaml.cs">
       <DependentUpon>DiceRollPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GiphyPage.xaml.cs">
+      <DependentUpon>GiphyPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -151,7 +156,12 @@
       <Private>True</Private>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Views\GiphyPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\TemperaturePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>

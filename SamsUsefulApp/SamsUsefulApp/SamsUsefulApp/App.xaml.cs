@@ -22,11 +22,14 @@ namespace SamsUsefulApp
             InitializeComponent();
             MainPage = new NavigationPage(new MainPage());
 
+            GiphyApi Test = new GiphyApi();
+            Test.GetRandomGif();
             CurrencyConverter Converter = new CurrencyConverter();
             Converter.GetCurrencyValues();
             DatabaseConnection = DependencyService.Get<ISQLite>().GetConnection();
             Queries.DropTable();
             DatabaseConnection.CreateTable<Rate>();
+            DatabaseConnection.CreateTable<GifSource>();
         }
 
         protected override void OnStart()
