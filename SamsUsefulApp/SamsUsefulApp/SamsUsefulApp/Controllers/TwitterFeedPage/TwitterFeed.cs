@@ -12,10 +12,10 @@ namespace SamsUsefulApp.Controllers
 {
     public class TwitterFeed 
     {
-        private string _consumerKey = "rOmSJLYQL1XQQzuK3JS8nO3hA";
-        private string _consumerSecret = "4CjdOb6CPmn8PnEXHLDPn2NoFeFs5D0Tt6bmnschlHK4tJ8nPd";
-        private string _token = "277665844-mDbdcV3zeGPuPQWFAQdjYi4AmzpyLNN2W92hN3hX";
-        private string _tokenSecret = "ggjU7GkQ0n0N46MKW5JjZnv1KEEGnRSWA5atASQQnwhVb";
+        //private string _consumerKey = "";
+        //private string _consumerSecret = "";
+        //private string _token = "";
+        //private string _tokenSecret = ConfigurationManager.AppSettings["_tokenSecret"];
 
         public void Authenticate()
         {
