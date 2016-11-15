@@ -4,7 +4,7 @@
              x:Class="SamsUsefulApp.Views.MainPage">
   <ContentPage.Content>
     <ScrollView>
-      <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15" BackgroundColor="#2B303A">
+      <StackLayout Style="{StaticResource mainPageStyle}">
         <Label Text="Sams Super Awesome App" Style="{StaticResource pageTitle}" />
         <Button x:Name="navTempPage" Text="Temperature Converter" Clicked="NavigatePageTempConverter" Style="{StaticResource primaryNavButton}"/>
         <Button x:Name="navDicePage" Text="Dice Roll" Clicked="NavigatePageDiceRoll" Style="{StaticResource primaryNavButton}" />

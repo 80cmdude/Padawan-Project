@@ -1,14 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SamsUsefulApp.Views.DiceRollPage">
-  <ContentPage.Padding>
-    <OnPlatform x:TypeArguments="Thickness"  Android="20, 20, 20, 20" WinPhone="20, 20, 20, 20" />
-  </ContentPage.Padding>
   <ContentPage.Resources>
     <ResourceDictionary>
     </ResourceDictionary>
   </ContentPage.Resources>
   <ScrollView>
-    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15" BackgroundColor="#2B303A">
+    <StackLayout Style="{StaticResource mainPageStyle}">
       <Label Text="Sams's Awesome Dice Roller" Style="{StaticResource pageTitle}"/>
       <StackLayout Orientation="Horizontal">
         <Label Text="Number of Dice?" WidthRequest="100" VerticalOptions="Center" Style="{StaticResource keyText}" />
