@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:samcontrols="clr-namespace:SamsUsefulApp.Controls;assembly=SamsUsefulApp" x:Class="SamsUsefulApp.Views.CurrencyConverterPage">
   <ContentPage.Padding>
-    <OnPlatform x:TypeArguments="Thickness" iOS="20, 40, 20, 20" Android="20, 20, 20, 20" WinPhone="20, 20, 20, 20" />
+    <OnPlatform x:TypeArguments="Thickness"  Android="20, 20, 20, 20" WinPhone="20, 20, 20, 20" />
   </ContentPage.Padding>
   <StackLayout BackgroundColor="#2B303A">
       <Label Text="Sam's Awesome Currency Converter" Style="{StaticResource pageTitle}" />
