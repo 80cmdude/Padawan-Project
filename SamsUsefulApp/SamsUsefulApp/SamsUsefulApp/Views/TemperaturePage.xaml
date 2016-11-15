@@ -12,7 +12,7 @@
     </ResourceDictionary>
   </ContentPage.Resources>
   <ContentPage.Content>
-    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15">
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15" BackgroundColor="#2B303A">
       <Label Text="Sam's Awesome Temperature Converter" Style="{StaticResource pageTitle}" />
       <Entry x:Name="txtTemperatureEntry" Keyboard="Numeric" Placeholder="Enter temperature here"/>
       <StackLayout Orientation="Horizontal">

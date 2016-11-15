@@ -3,7 +3,7 @@
   <ContentPage.Padding>
     <OnPlatform x:TypeArguments="Thickness" iOS="20, 40, 20, 20" Android="20, 20, 20, 20" WinPhone="20, 20, 20, 20" />
   </ContentPage.Padding>
-  <StackLayout>
+  <StackLayout BackgroundColor="#2B303A">
       <Label Text="Sam's Awesome Currency Converter" Style="{StaticResource pageTitle}" />
     <StackLayout Orientation="Horizontal">
       <Label Text="Value (GBP)" Style="{StaticResource keyText}" WidthRequest="100" VerticalOptions="Center" />
